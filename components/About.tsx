@@ -10,9 +10,10 @@ const About = () => {
         <div className="max-w-3xl mx-auto bg-white rounded-2xl shadow-lg overflow-hidden md:flex items-center">
           <div className="md:w-2/5 aspect-square">
             <img 
-              src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1080&h=1080&dpr=1"
+              src="https://i.ibb.co/Q7H3PpMW/9b593e91-db89-435c-aa94-dea5fb348982.png"
               alt="Stephanie Akosua, founder of Afrika Treasure Library" 
               className="w-full h-full object-cover"
+              referrerPolicy="no-referrer"
             />
           </div>
           <div className="md:w-3/5 p-8 md:p-10 relative bg-brand-cream h-full">
@@ -20,8 +21,8 @@ const About = () => {
             <div className="relative">
                 <h3 className="text-lg font-bold text-brand-green tracking-wider uppercase">From the Founder</h3>
                 <h2 className="mt-2 text-3xl md:text-4xl font-black text-brand-charcoal font-heading">A Heart for Our Heritage, A Vision for Our Future</h2>
-                <p className="mt-6 text-base text-gray-700 leading-relaxed">
-                  This journey began from a lifelong passion to see our stories told with beauty and power. My vision is to equip parents with vibrant, engaging resources to help you confidently connect your family to their rich African heritage, raising a generation of proud and knowledgeable leaders.
+                <p className="mt-6 text-base text-gray-700 leading-relaxed italic">
+                  &quot;The Afrika Treasure Library was born from a lifelong mission to see our stories told with the beauty and power they deserve. My vision is to empower you with vibrant, immersive resources that make connecting your family to their rich African heritage a joyful, everyday experience. Together, we are raising a generation of proud, knowledgeable Africans. Every resource we create is a labor of love—crafted to spark curiosity, ignite imagination, and instill a deep, unshakeable sense of belonging in every child.&quot;
                 </p>
                 <div className="mt-8">
                     <p className="text-3xl font-bold font-heading text-brand-charcoal/80">

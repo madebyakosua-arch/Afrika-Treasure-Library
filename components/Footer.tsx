@@ -7,14 +7,24 @@ const Footer = () => {
   return (
     <footer className="bg-white text-brand-green">
       <div className="container mx-auto px-6 py-12">
-        <div className="flex flex-col items-center text-center">
-          <h4 className="font-bold text-brand-green tracking-wider uppercase">Connect</h4>
-          <div className="mt-4">
-            <a href="mailto:info@africessencedigital.com" className="font-bold hover:text-brand-gold text-sm transition-colors">info@africessencedigital.com</a>
-            <div className="flex justify-center space-x-6 mt-6 text-2xl">
-              <a href="#" aria-label="Instagram" className="hover:text-brand-gold transition-colors"><ion-icon name="logo-instagram"></ion-icon></a>
-              <a href="#" aria-label="Facebook" className="hover:text-brand-gold transition-colors"><ion-icon name="logo-facebook"></ion-icon></a>
-              <a href="#" aria-label="Pinterest" className="hover:text-brand-gold transition-colors"><ion-icon name="logo-pinterest"></ion-icon></a>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center text-center">
+          <div>
+            <h4 className="font-bold text-brand-green tracking-wider uppercase">Quick Links</h4>
+            <div className="mt-4 flex flex-col space-y-2">
+              <a href="#resources" className="font-bold hover:text-brand-gold text-sm transition-colors uppercase tracking-widest">Our Resources</a>
+              <a href="#free-resources" className="font-bold hover:text-brand-gold text-sm transition-colors uppercase tracking-widest">Free Resources</a>
+              <a href="#about" className="font-bold hover:text-brand-gold text-sm transition-colors uppercase tracking-widest">About Us</a>
+            </div>
+          </div>
+          <div>
+            <h4 className="font-bold text-brand-green tracking-wider uppercase">Connect</h4>
+            <div className="mt-4">
+              <a href="mailto:info@africessencedigital.com" className="font-bold hover:text-brand-gold text-sm transition-colors">info@africessencedigital.com</a>
+              <div className="flex justify-center space-x-6 mt-6 text-2xl">
+                <a href="#" aria-label="Instagram" className="hover:text-brand-gold transition-colors"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="#" aria-label="Facebook" className="hover:text-brand-gold transition-colors"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="#" aria-label="Pinterest" className="hover:text-brand-gold transition-colors"><ion-icon name="logo-pinterest"></ion-icon></a>
+              </div>
             </div>
           </div>
         </div>

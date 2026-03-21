@@ -12,6 +12,7 @@ import WhyChooseUs from './components/WhyChooseUs';
 import About from './components/About';
 import Reviews from './components/Reviews';
 import FAQ from './components/FAQ';
+import FreeResources from './components/FreeResources';
 import SatisfactionGuarantee from './components/SatisfactionGuarantee';
 import Footer from './components/Footer';
 import StickyBottomBar from './components/StickyBottomBar';
@@ -41,6 +42,7 @@ const HomePage = () => {
       <Reviews />
       <ShopByAge />
       <About />
+      <FreeResources />
       <FAQ />
       <SatisfactionGuarantee />
     </main>

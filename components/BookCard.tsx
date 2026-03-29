@@ -16,6 +16,7 @@ const BookCard: React.FC<{ book: Book }> = ({ book }) => {
         alt={`Book cover for ${book.title}`} 
         className="w-full h-auto object-cover aspect-[3/4]" 
         referrerPolicy="no-referrer"
+        loading="lazy"
       />
       <div className="p-6 flex flex-col flex-grow text-center">
         <h3 className="text-xl font-bold text-brand-charcoal leading-tight min-h-[3.5rem] flex items-center justify-center">{book.title}</h3>

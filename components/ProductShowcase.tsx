@@ -47,6 +47,7 @@ const ProductShowcase = () => {
                   alt={item.title} 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   referrerPolicy="no-referrer"
+                  loading="lazy"
                 />
                 <div className={`absolute inset-0 ${item.accent} opacity-0 group-hover:opacity-10 transition-opacity duration-500`}></div>
               </div>

@@ -14,6 +14,7 @@ const About = () => {
               alt="Stephanie Akosua, founder of Afrika Treasure Library" 
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
+              loading="lazy"
             />
           </div>
           <div className="md:w-3/5 p-8 md:p-10 relative bg-brand-cream h-full">

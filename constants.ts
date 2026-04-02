@@ -8,26 +8,26 @@ export const BEST_SELLERS_BOOKS: Book[] = [
   { 
     id: 1, 
     title: 'Kwame Nkrumah: The Father of Ghana’s Independence (African History Book for Kids)', 
-    benefit: "Follow Kwame Nkrumah's inspiring journey from a small village to leading Ghana to independence in this beautifully illustrated storybook. Perfect for ages 5-7, it teaches children about courage, leadership, and the power of never giving up on your dreams.", 
+    benefit: "Empower your child to believe in their own potential as they witness a small-town boy rise to lead a nation to freedom. This story transforms a history lesson into a lifelong lesson on vision, resilience, and the power of dreaming big.", 
     coverImage: 'https://i.ibb.co/84gZNWNn/Product-Photo-1-Kwame.png', 
-    payhipLink: 'https://payhip.com/your-product-1', 
+    payhipLink: 'https://store.afrikatreasurelibrary.com/b/LAyjf', 
     isBestSeller: true, 
     rating: 5 
   },
   { 
     id: 2, 
     title: 'The Ashanti Kingdom: The Brave People of West Africa', 
-    benefit: 'Discover the legendary Ashanti Kingdom in this captivating book designed to introduce young readers to one of Africa’s most powerful and inspiring civilizations. Through colorful stories and fascinating facts, children will explore a land of bravery and rich traditions while learning valuable lessons about courage and unity.', 
+    benefit: "Give your child the gift of a strong cultural identity and an unshakeable sense of belonging. By exploring the unity and bravery of the Ashanti people, they'll discover a rich heritage that serves as a powerful foundation for their own confidence.", 
     coverImage: 'https://i.ibb.co/5XXDRrjF/New-Project-3.png', 
-    payhipLink: 'https://payhip.com/your-product-2', 
+    payhipLink: 'https://store.afrikatreasurelibrary.com/b/GvNny', 
     rating: 4.5 
   },
   { 
     id: 3, 
     title: 'Yaa Asantewaa: The Brave Queen Who defended her people', 
-    benefit: 'Introduce your child to the inspiring story of Yaa Asantewaa, the fearless Queen Mother of the Ashanti Kingdom who stood up for her people. This beautifully written book for ages 5-7 takes young readers on a journey through courage and leadership while exploring the rich traditions and culture of Ghana.', 
+    benefit: "Watch your daughter's confidence grow as she learns about the fearless Queen who led an army to defend her people. This empowering story inspires young readers to stand tall, find their voice, and lead with courage in their own lives.", 
     coverImage: 'https://i.ibb.co/20C3ypXF/Yaa-Asantewaa-Mockup-3.png', 
-    payhipLink: 'https://payhip.com/your-product-3', 
+    payhipLink: 'https://store.afrikatreasurelibrary.com/b/ge14q', 
     rating: 5 
   },
 ];
@@ -36,17 +36,17 @@ export const BEST_SELLERS_BOOKS: Book[] = [
 // PASTE YOUR PAYHIP LINKS FOR CATEGORIES AND BUNDLES HERE
 // =================================================================
 export const PAYHIP_LINKS = {
-  ages3to5: 'https://payhip.com/your-collection-3-5',
-  ages6to8: 'https://payhip.com/your-collection-6-8',
-  ages9to12: 'https://payhip.com/your-collection-9-12',
-  bestSellers: 'https://payhip.com/your-bestsellers-collection',
-  starterPack: 'https://payhip.com/your-free-starter-pack',
-  starterBundle: 'https://payhip.com/your-starter-bundle',
-  leadersBundle: 'https://payhip.com/your-leaders-bundle',
-  familyBundle: 'https://payhip.com/your-family-bundle',
-  books: 'https://payhip.com/your-books-collection',
-  worksheetsAndGames: 'https://payhip.com/your-worksheets-collection',
-  bundles: 'https://payhip.com/your-bundles-collection'
+  ages3to5: 'https://store.afrikatreasurelibrary.com/',
+  ages6to8: 'https://store.afrikatreasurelibrary.com/',
+  ages9to12: 'https://store.afrikatreasurelibrary.com/',
+  bestSellers: 'https://store.afrikatreasurelibrary.com/',
+  starterPack: 'https://store.afrikatreasurelibrary.com/',
+  starterBundle: 'https://store.afrikatreasurelibrary.com/',
+  leadersBundle: 'https://store.afrikatreasurelibrary.com/',
+  familyBundle: 'https://store.afrikatreasurelibrary.com/',
+  books: 'https://store.afrikatreasurelibrary.com/',
+  worksheetsAndGames: 'https://store.afrikatreasurelibrary.com/',
+  bundles: 'https://store.afrikatreasurelibrary.com/'
 };
 
 export const FAQ_DATA: FAQItem[] = [

@@ -7,9 +7,11 @@ const AnnouncementBar = () => {
   if (!isVisible) return null;
 
   return (
-    <div className="bg-brand-gold text-brand-charcoal p-2 text-center text-sm relative font-bold">
-      <p>
-        <span className="font-black uppercase tracking-wider">Empower your child.</span> Discover the richness of African heritage. Shop the library today!
+    <div className="bg-brand-red text-white p-2.5 text-center text-sm relative font-bold shadow-md">
+      <p className="flex items-center justify-center gap-2 flex-wrap">
+        <span className="bg-white text-brand-red px-2 py-0.5 rounded text-[10px] font-black uppercase tracking-tighter">Limited Time</span>
+        Get <span className="text-brand-gold font-black">10% OFF</span> this week for our <span className="uppercase tracking-wide">African Heritage Sale</span>. 
+        Use coupon code: <span className="bg-white/20 px-2 py-0.5 rounded border border-white/30 font-black">JUSTFORYOU</span>
       </p>
       <button 
         onClick={() => setIsVisible(false)} 

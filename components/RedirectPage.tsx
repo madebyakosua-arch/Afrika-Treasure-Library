@@ -8,7 +8,7 @@ const RedirectPage = () => {
   const location = useLocation();
   const navigate = useNavigate();
   const { title, url } = (location.state as { title: string; url: string }) || {};
-  const [countdown, setCountdown] = useState(3);
+  const [countdown, setCountdown] = useState(6);
 
   useEffect(() => {
     if (!title || !url) return;

@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Book } from '../types';
 import StarRating from './StarRating';
 
@@ -28,14 +29,13 @@ const BookCard: React.FC<{ book: Book }> = ({ book }) => {
                 <StarRating rating={book.rating} className="text-base" />
               </div>
             )} 
-            <a 
-              href={book.payhipLink} 
-              target="_blank" 
-              rel="noopener noreferrer" 
+            <Link 
+              to="/redirect" 
+              state={{ title: book.title, url: book.payhipLink }}
               className="w-full block text-center bg-brand-red text-white font-black text-sm py-4 px-6 rounded-xl hover:bg-brand-red/90 transition-all shadow-lg hover:shadow-brand-red/20 uppercase tracking-wider"
             >
               Order Now
-            </a>
+            </Link>
           </div>
         </div>
       </div>

@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { PAYHIP_LINKS } from '../constants';
 
 const ProductShowcase = () => {
@@ -56,14 +57,13 @@ const ProductShowcase = () => {
                 {item.description}
               </p>
               <div className="mt-auto">
-                <a 
-                  href={item.link} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
+                <Link 
+                  to="/redirect" 
+                  state={{ title: item.title, url: item.link }}
                   className="inline-flex items-center gap-2 text-brand-charcoal font-bold border-b-2 border-brand-charcoal pb-1 hover:text-brand-red hover:border-brand-red transition-all"
                 >
                   Shop the Collection <ion-icon name="arrow-forward-outline"></ion-icon>
-                </a>
+                </Link>
               </div>
             </div>
           ))}

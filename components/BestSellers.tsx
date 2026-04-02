@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { BEST_SELLERS_BOOKS, PAYHIP_LINKS } from '../constants';
 import BookCard from './BookCard';
 
@@ -17,14 +18,13 @@ const BestSellers = () => {
           ))}
         </div>
         <div className="mt-16">
-          <a 
-            href={PAYHIP_LINKS.bestSellers}
-            target="_blank"
-            rel="noopener noreferrer" 
+          <Link 
+            to="/redirect"
+            state={{ title: "Our Best Sellers Collection", url: PAYHIP_LINKS.bestSellers }}
             className="bg-brand-green text-white font-bold text-lg py-4 px-8 rounded-full hover:bg-brand-green/90 transition-transform hover:scale-105 shadow-lg inline-block"
           >
             Shop All Best Sellers
-          </a>
+          </Link>
            <div className="mt-8 flex flex-col items-center gap-3">
             <p className="text-sm text-gray-500">Available on our official Payhip store.</p>
             <div className="flex items-center justify-center gap-x-4 text-gray-600" aria-label="Accepted payment methods">

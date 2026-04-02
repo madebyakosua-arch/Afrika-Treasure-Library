@@ -22,6 +22,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import TermsOfService from './components/TermsOfService';
 import ScrollToTop from './components/ScrollToTop';
+import RedirectPage from './components/RedirectPage';
 
 const HomePage = () => {
   React.useEffect(() => {
@@ -61,6 +62,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/privacy" element={<PrivacyPolicy />} />
           <Route path="/terms" element={<TermsOfService />} />
+          <Route path="/redirect" element={<RedirectPage />} />
         </Routes>
         <SalesNotifications />
       </div>

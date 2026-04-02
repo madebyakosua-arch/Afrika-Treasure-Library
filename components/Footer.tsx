@@ -19,7 +19,7 @@ const Footer = () => {
           <div>
             <h4 className="font-bold text-brand-green tracking-wider uppercase">Connect</h4>
             <div className="mt-4">
-              <a href="mailto:info@africessencedigital.com" className="font-bold hover:text-brand-gold text-sm transition-colors">info@africessencedigital.com</a>
+              <a href="mailto:support@africessencedigital.com" className="font-bold hover:text-brand-gold text-sm transition-colors">support@africessencedigital.com</a>
               <div className="flex justify-center space-x-6 mt-6 text-2xl">
                 <a href="#" aria-label="Instagram" className="hover:text-brand-gold transition-colors"><ion-icon name="logo-instagram"></ion-icon></a>
                 <a href="#" aria-label="Facebook" className="hover:text-brand-gold transition-colors"><ion-icon name="logo-facebook"></ion-icon></a>

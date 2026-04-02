@@ -12,7 +12,7 @@ const SatisfactionGuarantee = () => {
             Your family&apos;s journey into African heritage is our sacred trust. We pour our hearts into creating resources that inspire and empower. If for any reason you are not completely delighted with your purchase, please contact us within 7 days. While we cannot offer refunds on digital downloads, we will gladly gift you another digital product of your choice, completely free. Your satisfaction is the cornerstone of our legacy.
           </p>
           <a 
-            href="mailto:info@africessencedigital.com"
+            href="mailto:support@africessencedigital.com"
             className="mt-8 inline-block bg-brand-gold text-brand-charcoal font-bold py-3 px-8 rounded-full hover:bg-brand-gold/90 transition-colors shadow-lg"
           >
             Contact Support
